@@ -11,7 +11,7 @@ export function SocialLinks() {
       </CardDescription>
       <div className="flex gap-3 sm:gap-4 flex-wrap justify-center">
         <Link
-          href="https://instagram.com/paradox_iitmadras"
+          href="https://www.instagram.com/iitm_saranda/"
           target="_blank"
         >
           <Image
@@ -23,7 +23,7 @@ export function SocialLinks() {
           />
         </Link>
         <Link
-          href="https://youtube.com/@paradox_iitmadras"
+          href="https://youtube.com/@saranda_iitm?feature=shared"
           target="_blank"
         >
           <Image
@@ -35,7 +35,7 @@ export function SocialLinks() {
           />
         </Link>
         <Link
-          href="https://linkedin.com/company/paradox-iitm"
+          href="https://www.linkedin.com/company/saranda-house/"
           target="_blank"
         >
           <Image
