@@ -101,7 +101,7 @@ export default function CertificateVerification() {
                   {...field}
                   id="certificate-id"
                   type="text"
-                  placeholder="Enter your certificate ID (e.g., PRDX23M0000)"
+                  placeholder="Enter your certificate ID (e.g., SHXXAAXX)"
                   className="h-10 sm:h-12 text-sm sm:text-lg border-2 border-slate-200 dark:border-slate-700 rounded-xl focus:border-blue-500 dark:focus:border-blue-400 transition-all duration-300"
                   disabled={status === "loading"}
                 />
