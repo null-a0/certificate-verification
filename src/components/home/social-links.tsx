@@ -46,13 +46,6 @@ export function SocialLinks() {
             className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
           />
         </Link>
-        <Image
-          src="x.svg"
-          alt="Paradox X"
-          width={30}
-          height={30}
-          className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
-        />
       </div>
     </>
   );
