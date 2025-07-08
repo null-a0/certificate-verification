@@ -7,7 +7,8 @@ export function SocialLinks() {
   return (
     <>
       <CardDescription className="text-xs sm:text-sm text-center">
-        Managed by Paradox Student Relations
+        Follow us on social media for the latest updates and news about Saranda
+        House!
       </CardDescription>
       <div className="flex gap-3 sm:gap-4 flex-wrap justify-center">
         <Link
