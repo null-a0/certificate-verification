@@ -5,9 +5,9 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
-  binaryTargets = ["native", "rhel-openssl-3.0.x"] 
+  provider      = "prisma-client-js"
+  output        = "../src/generated/prisma"
+  binaryTargets = ["native", "rhel-openssl-1.0.x", "rhel-openssl-3.0.x"]
 }
 
 datasource db {
@@ -25,9 +25,9 @@ enum TYPE {
 model User {
   id             String   @id @default(cuid())
   certificate_id String   @unique
-  email          String   
+  email          String
   name           String
-  roll_number    String   
+  roll_number    String
   duration       String
   position       String
   team_name      String
