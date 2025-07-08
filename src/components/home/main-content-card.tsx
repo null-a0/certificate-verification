@@ -22,7 +22,9 @@ export function MainContentCard() {
         <article className="flex-1 w-full max-w-2xl">
           <PageHeader />
           <CardContent className="flex flex-col items-center gap-4 px-2 sm:px-4">
-            <CertificateVerification />
+            <React.Suspense fallback={<div>Loading...</div>}>
+              <CertificateVerification />
+            </React.Suspense>
           </CardContent>
           <CardFooter className="flex flex-col items-center gap-3 mt-4 px-2 sm:px-4">
             <SocialLinks />
