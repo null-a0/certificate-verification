@@ -16,7 +16,7 @@ export function SocialLinks() {
         >
           <Image
             src="instagram.svg"
-            alt="Paradox Instagram"
+            alt="Saranda House Instagram"
             width={30}
             height={30}
             className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
@@ -28,7 +28,7 @@ export function SocialLinks() {
         >
           <Image
             src="youtube.svg"
-            alt="Paradox YouTube"
+            alt="Saranda House YouTube"
             width={30}
             height={30}
             className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
@@ -40,7 +40,7 @@ export function SocialLinks() {
         >
           <Image
             src="linkedin.svg"
-            alt="Paradox LinkedIn"
+            alt="Saranda House LinkedIn"
             width={30}
             height={30}
             className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
