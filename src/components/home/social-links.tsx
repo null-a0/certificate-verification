@@ -40,7 +40,7 @@ export function SocialLinks() {
           target="_blank"
         >
           <Image
-            src="linkedin.svg"
+            src="linkedIn.svg"
             alt="Saranda House LinkedIn"
             width={30}
             height={30}

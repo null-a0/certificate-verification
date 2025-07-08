@@ -10,7 +10,7 @@ export function LogoSection({ variant }: LogoSectionProps) {
     return (
       <div className="sm:hidden w-full flex justify-center mb-6">
         <Image
-          src="/logo.png"
+          src="logo.svg"
           alt="Paradox Logo"
           width={120}
           height={120}
@@ -23,7 +23,7 @@ export function LogoSection({ variant }: LogoSectionProps) {
   return (
     <aside className="hidden sm:block lg:flex-shrink-0">
       <Image
-        src="/logo.png"
+        src="logo.svg"
         alt="Paradox Logo"
         width={600}
         height={600}

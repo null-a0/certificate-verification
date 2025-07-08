@@ -44,7 +44,7 @@ export default function Certificate({ data }: { data: CertificateData | null; })
         <CardHeader className="text-center space-y-4 pb-8">
           <div className="flex justify-center">
             <Image
-              src="/logo.png"
+              src="logo.svg"
               alt="Paradox Logo"
               width={80}
               height={80}
