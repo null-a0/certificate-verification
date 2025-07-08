@@ -150,30 +150,3 @@
   animation: float 3s ease-in-out infinite;
 }
 
-/* Print styles for certificate */
-@media print {
-  .no-print {
-    display: none !important;
-  }
-
-  body {
-    background: white !important;
-    color: black !important;
-  }
-
-  .certificate-print {
-    background: white !important;
-    box-shadow: none !important;
-    border: 2px solid #000 !important;
-    border-radius: 0 !important;
-    margin: 0 !important;
-    padding: 2rem !important;
-    page-break-inside: avoid;
-  }
-
-  .certificate-print * {
-    background: transparent !important;
-    color: black !important;
-    border-color: black !important;
-  }
-}
