@@ -1,0 +1,59 @@
+import React from "react";
+import { CardDescription } from "@/components/ui/card";
+import Image from "next/image";
+import Link from "next/link";
+
+export function SocialLinks() {
+  return (
+    <>
+      <CardDescription className="text-xs sm:text-sm text-center">
+        Managed by Paradox Student Relations
+      </CardDescription>
+      <div className="flex gap-3 sm:gap-4 flex-wrap justify-center">
+        <Link
+          href="https://instagram.com/paradox_iitmadras"
+          target="_blank"
+        >
+          <Image
+            src="instagram.svg"
+            alt="Paradox Instagram"
+            width={30}
+            height={30}
+            className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
+          />
+        </Link>
+        <Link
+          href="https://youtube.com/@paradox_iitmadras"
+          target="_blank"
+        >
+          <Image
+            src="youtube.svg"
+            alt="Paradox YouTube"
+            width={30}
+            height={30}
+            className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
+          />
+        </Link>
+        <Link
+          href="https://linkedin.com/company/paradox-iitm"
+          target="_blank"
+        >
+          <Image
+            src="linkedin.svg"
+            alt="Paradox LinkedIn"
+            width={30}
+            height={30}
+            className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
+          />
+        </Link>
+        <Image
+          src="x.svg"
+          alt="Paradox X"
+          width={30}
+          height={30}
+          className="inline-block h-6 w-6 sm:h-8 sm:w-8 hover:scale-110 transition-transform duration-300 cursor-pointer"
+        />
+      </div>
+    </>
+  );
+}

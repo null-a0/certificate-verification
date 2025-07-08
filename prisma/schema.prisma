@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum TYPE {
+  TEAM
+  CLUB
+  REGION
+}
+
+model User {
+  id             String   @id @default(cuid())
+  certificate_id String   @unique
+  email          String   
+  name           String
+  roll_number    String   
+  duration       String
+  position       String
+  team_name      String
+  type           TYPE
+  created_at     DateTime @default(now())
+  updated_at     DateTime @updatedAt
+
+  @@index([certificate_id], name: "idx_user_certificate_id")
+}
